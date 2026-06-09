@@ -7,8 +7,43 @@
  */
 
 const config = {
+  // ===== THEME =====
+  // Customize colors to match your brand. All components follow this theme.
+  theme: {
+    // Primary brand color (buttons, highlights, active states)
+    primary: '#7C3AED',       // Purple — change to your brand color
+    primaryHover: '#6D28D9',
+    // Secondary color (demo button, info elements)  
+    secondary: '#0891B2',     // Cyan
+    // Success color (payment verified, copied)
+    success: '#059669',       // Green
+    // Danger color (disconnect, warnings)
+    danger: '#EF4444',        // Red
+    // Warning color (gas fee alerts, chain warnings)
+    warning: '#EAB308',       // Yellow
+    // Background colors
+    bgPrimary: '#0F172A',     // Dark navy — main background
+    bgSecondary: '#1E293B',   // Slightly lighter — cards/modals
+    bgTertiary: 'rgba(255,255,255,0.05)', // Subtle card background
+    // Text colors
+    textPrimary: '#FFFFFF',
+    textSecondary: '#9CA3AF',
+    textMuted: '#4B5563',
+    // Border
+    border: 'rgba(255,255,255,0.1)',
+    borderHover: 'rgba(255,255,255,0.3)',
+    // Gradient (connect button, primary CTA)
+    gradient: 'linear-gradient(to right, #7C3AED, #EC4899)',
+    gradientSuccess: 'linear-gradient(to right, #059669, #10B981)',
+    // Border radius
+    radius: '12px',
+    radiusLg: '16px',
+    radiusFull: '24px',
+    // "Powered by" footer — set false to hide
+    showPoweredBy: true,
+  },
+
   // ===== RECEIVING ADDRESSES =====
-  // Replace with YOUR USDT addresses for each chain
   receivingAddresses: {
     trc20: {
       address: 'YOUR_TRON_USDT_ADDRESS',
@@ -56,7 +91,6 @@ const config = {
   },
 
   // ===== SUPPORTED WALLETS =====
-  // Shown in the wallet installation guide for users without a wallet
   wallets: [
     { name: 'MetaMask', desc: 'Most popular Ethereum wallet', icon: '🦊', url: 'https://metamask.io/download/', chrome: 'https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn', type: 'Browser + Mobile' },
     { name: 'OKX Wallet', desc: 'OKX official Web3 wallet', icon: '⭕', url: 'https://www.okx.com/web3', chrome: 'https://chromewebstore.google.com/detail/okx-wallet/mcohilncbfahbmgdjkbpemcciiolgcge', type: 'Browser + Mobile' },
@@ -70,22 +104,22 @@ const config = {
 
   // ===== LOCAL STORAGE KEYS =====
   storageKeys: {
-    wallet: 'cwl_wallet',      // Connected wallet address
-    demoMode: 'cwl_demo_mode', // Demo mode flag
+    wallet: 'afp_wallet',
+    demoMode: 'afp_demo_mode',
   },
 
   // ===== PAYMENT =====
   payment: {
-    pollInterval: 10000,     // Auto-verify every 10 seconds
-    maxPolls: 30,            // Max attempts (5 minutes total)
-    gasTolerance: 0.9,       // Accept 90% of required amount
+    pollInterval: 10000,
+    maxPolls: 30,
+    gasTolerance: 0.9,
     qrApiUrl: 'https://api.qrserver.com/v1/create-qr-code/',
   },
 
   // ===== DEMO MODE =====
   demo: {
     enabled: true,
-    walletAddress: '0xDemoAccount_CryptoWalletLite',
+    walletAddress: '0xDemoAccount_AiFundPay',
   },
 };
 
