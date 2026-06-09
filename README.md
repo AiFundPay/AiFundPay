@@ -194,9 +194,8 @@ aifundpay/
 | v1.3 | Multi-wallet: EVM + Solana + Bitcoin + Atomicals | ✅ Released |
 | v1.4 | x402 HTTP micropayment protocol | ✅ Released |
 | v2.0 | Multi-token: USDT + USDC + ETH + BTC + SOL + BNB | ✅ Released |
-| v2.1 | Subscription payments (recurring billing) | Next |
-| v2.1 | Subscription payments (recurring billing) | Planned |
-| v3.0 | AI Agent autonomous payment standard | Planned |
+| v2.1 | Subscription payments (recurring billing) | ✅ Released |
+| v3.0 | AI Agent autonomous payment standard | Next |
 
 ## Who is this for?
 
