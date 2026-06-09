@@ -13,10 +13,10 @@
   "homepage": "https://aifund.com/pay",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fofbit/AiFundPay"
+    "url": "https://github.com/AiFundPay/AiFundPay"
   },
   "bugs": {
-    "url": "https://github.com/fofbit/AiFundPay/issues"
+    "url": "https://github.com/AiFundPay/AiFundPay/issues"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
