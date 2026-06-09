@@ -195,7 +195,7 @@ aifundpay/
 | v1.4 | x402 HTTP micropayment protocol | ✅ Released |
 | v2.0 | Multi-token: USDT + USDC + ETH + BTC + SOL + BNB | ✅ Released |
 | v2.1 | Subscription payments (recurring billing) | ✅ Released |
-| v3.0 | AI Agent autonomous payment standard | Next |
+| v3.0 | AI Agent autonomous payment standard | ✅ Released |
 
 ## Who is this for?
 
